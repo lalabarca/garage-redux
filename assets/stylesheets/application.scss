@@ -1,4 +1,64 @@
-.app {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.container {
+  margin-top: 4rem;
+}
+
+a {
+  color: initial;
+}
+
+aside, .card-product {
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+aside {
+  padding: 0 5rem 2rem 5rem;
+}
+
+.card-product {
+  overflow: hidden;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.card-product img {
+  height: 100%;
+  width: 230px;
+  object-fit: cover;
+}
+
+.card-product h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 16px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.card-product .card-product-infos {
+  padding: 20px;
+}
+
+.plate-license {
+  border: thin solid #000;
+  padding: 1rem;
+  font-size: 18px;
+  color: #000;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.delete-btn {
+  margin-left: auto;
+  align-self: flex-end;
+  margin: 0 2rem 2rem auto;
 }
